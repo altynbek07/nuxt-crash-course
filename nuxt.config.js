@@ -17,6 +17,18 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+  /**
+   * CSS
+   */
+  css: [
+    '@/node_modules/bootstrap/dist/css/bootstrap.min.css'
+  ],
+  /**
+   * Modules
+   */
+  modules: [
+    '@nuxtjs/axios',
+  ],
   /*
   ** Build configuration
   */
